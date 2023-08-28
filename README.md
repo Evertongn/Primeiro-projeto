@@ -8,16 +8,16 @@ Api que simula o cadatro de jogares, e cadastro de um time utilizando a api poke
 Estrutura inicial do projeto com o padrão api rest
 Rota simples e legível.
 
-###🛠️ Tecnologias
+### 🛠️ Tecnologias
 NodeJS
 Express
 Typescript
 
-##📋 Pré-requisitos
+## 📋 Pré-requisitos
 npm instalado em sua máquina.
 Node instalado em sua máquina.
 
-##🔧 Instalação
+## 🔧 Instalação
 Como instalar
 Clone este repositório para qualquer pasta que desejar.
 Abra seu terminal na mesma pasta e digite...
