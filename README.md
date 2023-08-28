@@ -30,9 +30,15 @@ Lembre-se de que este projeto não requer um banco de dados.
 
 ## Rotas
 get('/jogadores', listarJogadores)
+
 post('/jogadores', criarJogador)
+
 put('/jogadores/:id', editarJogador)
+
 delete('/jogadores/:id', deletarjogador)
+
 get('/pokemons', listaPokemons)
+
 get('/pokemon/:idOuNome', detalhePokemon)
+
 post('/jogadores/:id/time', criarTime)
