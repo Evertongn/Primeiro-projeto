@@ -1,43 +1,43 @@
-# Time pokemon
-Projeto backend de um time de pokemon utiliznado api rest
+# Time Pokémon - Projeto Backend
 
-Sobre
-Api que simula o cadatro de jogares, e cadastro de um time utilizando a api pokemon
+## Sobre
+Este projeto consiste em uma API que permite o cadastro de jogadores e a criação de times de Pokémon, utilizando a API oficial de Pokémon.
 
-## 🚀 Recursos
-Estrutura inicial do projeto com o padrão api rest
-Rota simples e legível.
+## Recursos 🚀
+- Estrutura inicial do projeto seguindo o padrão de uma API REST.
+- Rotas simples e de fácil compreensão.
 
-### 🛠️ Tecnologias
-NodeJS
-Express
-Typescript
+### Tecnologias 🛠️
+- NodeJS
+- Express
+- TypeScript
 
-## 📋 Pré-requisitos
-npm instalado em sua máquina.
-Node instalado em sua máquina.
+## Pré-requisitos 📋
+- Node.js instalado em sua máquina.
+- npm (Node Package Manager) instalado em sua máquina.
 
-## 🔧 Instalação
-Como instalar
-Clone este repositório para qualquer pasta que desejar.
-Abra seu terminal na mesma pasta e digite...
-npm install
-Após algum tempo, todas as dependências necessárias para executar este projeto serão instaladas.
+## Instalação 🔧
+Siga as instruções abaixo para instalar e executar o projeto:
 
-Agora você só precisa iniciar um servidor de desenvolvimento digitando
-npm rum dev
+1. Clone este repositório para a pasta de sua escolha.
+2. Abra o terminal na pasta do projeto e execute o seguinte comando:
 
-## Rotas
-get('/jogadores', listarJogadores)
+   npm install
+   
+Isso instalará todas as dependências necessárias para executar o projeto.
 
-post('/jogadores', criarJogador)
+4. Após a conclusão da instalação, inicie o servidor de desenvolvimento com o seguinte comando:
 
-put('/jogadores/:id', editarJogador)
+    npm run dev
+   
+## Rotas 🛤️
+A API oferece as seguintes rotas:
 
-delete('/jogadores/:id', deletarjogador)
+- GET `/jogadores`: Lista todos os jogadores.
+- POST `/jogadores`: Cria um novo jogador.
+- PUT `/jogadores/:id`: Edita os dados de um jogador específico.
+- DELETE `/jogadores/:id`: Deleta um jogador específico.
+- GET `/pokemons`: Lista todos os pokémons disponíveis.
+- GET `/pokemon/:idOuNome`: Obtém detalhes de um pokémon com base em seu ID ou nome.
+- POST `/jogadores/:id/time`: Cria um time de pokémons para um jogador específico.
 
-get('/pokemons', listaPokemons)
-
-get('/pokemon/:idOuNome', detalhePokemon)
-
-post('/jogadores/:id/time', criarTime)
