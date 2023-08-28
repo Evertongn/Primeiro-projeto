@@ -25,8 +25,7 @@ npm install
 Após algum tempo, todas as dependências necessárias para executar este projeto serão instaladas.
 
 Agora você só precisa iniciar um servidor de desenvolvimento digitando
-npm start
-Lembre-se de que este projeto não requer um banco de dados.
+npm rum dev
 
 ## Rotas
 get('/jogadores', listarJogadores)
